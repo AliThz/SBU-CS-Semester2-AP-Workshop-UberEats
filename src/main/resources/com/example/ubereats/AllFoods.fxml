@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="560.0" maxWidth="900.0" minHeight="560.0" minWidth="900.0" prefHeight="560.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ubereats.FoodsController">
+   <children>
+      <ImageView fitHeight="616.0" fitWidth="1065.0" layoutX="-147.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/15-1.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="21.0" layoutY="13.0" prefHeight="123.0" prefWidth="186.0" style="-fx-background-color: #a41e1e; -fx-background-radius: 20;">
+         <children>
+            <Label layoutX="11.0" layoutY="8.0" text="Hamburger" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="23.0" layoutY="54.0" text="LabelLabelLabelLabel" textFill="#e4e4e4" />
+            <Label layoutX="29.0" layoutY="79.0" text="12" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="17.0" layoutY="79.0" text="\$" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="92.0" layoutY="81.0" prefHeight="30.0" prefWidth="84.0" style="-fx-background-color: #694106; -fx-background-radius: 20;">
+               <children>
+                  <Button layoutX="-1.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="32.0" style="-fx-background-color: #694106; -fx-background-radius: 20;" text="-" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="54.0" layoutY="1.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="32.0" style="-fx-background-color: #694106; -fx-background-radius: 20;" text="+" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Label alignment="CENTER" layoutX="23.0" layoutY="1.0" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: #694106;" text="0" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="216.0" layoutY="13.0" prefHeight="123.0" prefWidth="186.0" style="-fx-background-color: #a41e1e; -fx-background-radius: 20;">
+         <children>
+            <Label layoutX="11.0" layoutY="8.0" text="Hamburger" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="23.0" layoutY="54.0" text="LabelLabelLabelLabel" textFill="#e4e4e4" />
+            <Label layoutX="29.0" layoutY="79.0" text="12" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="17.0" layoutY="79.0" text="\$" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="92.0" layoutY="81.0" prefHeight="30.0" prefWidth="84.0" style="-fx-background-color: #694106; -fx-background-radius: 20;">
+               <children>
+                  <Button layoutX="-1.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="32.0" style="-fx-background-color: #694106; -fx-background-radius: 20;" text="-" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="54.0" layoutY="1.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="32.0" style="-fx-background-color: #694106; -fx-background-radius: 20;" text="+" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Label alignment="CENTER" layoutX="23.0" layoutY="1.0" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: #694106;" text="0" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="414.0" layoutY="13.0" prefHeight="123.0" prefWidth="186.0" style="-fx-background-color: #a41e1e; -fx-background-radius: 20;">
+         <children>
+            <Label layoutX="11.0" layoutY="8.0" text="Hamburger" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="23.0" layoutY="54.0" text="LabelLabelLabelLabel" textFill="#e4e4e4" />
+            <Label layoutX="29.0" layoutY="79.0" text="12" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="17.0" layoutY="79.0" text="\$" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="92.0" layoutY="81.0" prefHeight="30.0" prefWidth="84.0" style="-fx-background-color: #694106; -fx-background-radius: 20;">
+               <children>
+                  <Button layoutX="-1.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="32.0" style="-fx-background-color: #694106; -fx-background-radius: 20;" text="-" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="54.0" layoutY="1.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="32.0" style="-fx-background-color: #694106; -fx-background-radius: 20;" text="+" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Label alignment="CENTER" layoutX="23.0" layoutY="1.0" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: #694106;" text="0" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="19.0" layoutY="150.0" prefHeight="123.0" prefWidth="186.0" style="-fx-background-color: #a41e1e; -fx-background-radius: 20;">
+         <children>
+            <Label layoutX="11.0" layoutY="8.0" text="Hamburger" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="23.0" layoutY="54.0" text="LabelLabelLabelLabel" textFill="#e4e4e4" />
+            <Label layoutX="29.0" layoutY="79.0" text="12" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="17.0" layoutY="79.0" text="\$" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="92.0" layoutY="81.0" prefHeight="30.0" prefWidth="84.0" style="-fx-background-color: #694106; -fx-background-radius: 20;">
+               <children>
+                  <Button layoutX="-1.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="32.0" style="-fx-background-color: #694106; -fx-background-radius: 20;" text="-" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="54.0" layoutY="1.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="32.0" style="-fx-background-color: #694106; -fx-background-radius: 20;" text="+" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Label alignment="CENTER" layoutX="23.0" layoutY="1.0" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: #694106;" text="0" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="214.0" layoutY="150.0" prefHeight="123.0" prefWidth="186.0" style="-fx-background-color: #a41e1e; -fx-background-radius: 20;">
+         <children>
+            <Label layoutX="11.0" layoutY="8.0" text="Hamburger" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="23.0" layoutY="54.0" text="LabelLabelLabelLabel" textFill="#e4e4e4" />
+            <Label layoutX="29.0" layoutY="79.0" text="12" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="17.0" layoutY="79.0" text="\$" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="92.0" layoutY="81.0" prefHeight="30.0" prefWidth="84.0" style="-fx-background-color: #694106; -fx-background-radius: 20;">
+               <children>
+                  <Button layoutX="-1.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="32.0" style="-fx-background-color: #694106; -fx-background-radius: 20;" text="-" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="54.0" layoutY="1.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="32.0" style="-fx-background-color: #694106; -fx-background-radius: 20;" text="+" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Label alignment="CENTER" layoutX="23.0" layoutY="1.0" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: #694106;" text="0" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="412.0" layoutY="150.0" prefHeight="123.0" prefWidth="186.0" style="-fx-background-color: #a41e1e; -fx-background-radius: 20;">
+         <children>
+            <Label layoutX="11.0" layoutY="8.0" text="Hamburger" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="23.0" layoutY="54.0" text="LabelLabelLabelLabel" textFill="#e4e4e4" />
+            <Label layoutX="29.0" layoutY="79.0" text="12" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="17.0" layoutY="79.0" text="\$" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="92.0" layoutY="81.0" prefHeight="30.0" prefWidth="84.0" style="-fx-background-color: #694106; -fx-background-radius: 20;">
+               <children>
+                  <Button layoutX="-1.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="32.0" style="-fx-background-color: #694106; -fx-background-radius: 20;" text="-" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="54.0" layoutY="1.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="32.0" style="-fx-background-color: #694106; -fx-background-radius: 20;" text="+" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Label alignment="CENTER" layoutX="23.0" layoutY="1.0" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: #694106;" text="0" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="20.0" layoutY="286.0" prefHeight="123.0" prefWidth="186.0" style="-fx-background-color: #a41e1e; -fx-background-radius: 20;">
+         <children>
+            <Label layoutX="11.0" layoutY="8.0" text="Hamburger" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="23.0" layoutY="54.0" text="LabelLabelLabelLabel" textFill="#e4e4e4" />
+            <Label layoutX="29.0" layoutY="79.0" text="12" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="17.0" layoutY="79.0" text="\$" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="92.0" layoutY="81.0" prefHeight="30.0" prefWidth="84.0" style="-fx-background-color: #694106; -fx-background-radius: 20;">
+               <children>
+                  <Button layoutX="-1.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="32.0" style="-fx-background-color: #694106; -fx-background-radius: 20;" text="-" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="54.0" layoutY="1.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="32.0" style="-fx-background-color: #694106; -fx-background-radius: 20;" text="+" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Label alignment="CENTER" layoutX="23.0" layoutY="1.0" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: #694106;" text="0" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="215.0" layoutY="286.0" prefHeight="123.0" prefWidth="186.0" style="-fx-background-color: #a41e1e; -fx-background-radius: 20;">
+         <children>
+            <Label layoutX="11.0" layoutY="8.0" text="Hamburger" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="23.0" layoutY="54.0" text="LabelLabelLabelLabel" textFill="#e4e4e4" />
+            <Label layoutX="29.0" layoutY="79.0" text="12" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="17.0" layoutY="79.0" text="\$" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="92.0" layoutY="81.0" prefHeight="30.0" prefWidth="84.0" style="-fx-background-color: #694106; -fx-background-radius: 20;">
+               <children>
+                  <Button layoutX="-1.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="32.0" style="-fx-background-color: #694106; -fx-background-radius: 20;" text="-" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="54.0" layoutY="1.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="32.0" style="-fx-background-color: #694106; -fx-background-radius: 20;" text="+" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Label alignment="CENTER" layoutX="23.0" layoutY="1.0" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: #694106;" text="0" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="413.0" layoutY="286.0" prefHeight="123.0" prefWidth="186.0" style="-fx-background-color: #a41e1e; -fx-background-radius: 20;">
+         <children>
+            <Label layoutX="11.0" layoutY="8.0" text="Hamburger" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="23.0" layoutY="54.0" text="LabelLabelLabelLabel" textFill="#e4e4e4" />
+            <Label layoutX="29.0" layoutY="79.0" text="12" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="17.0" layoutY="79.0" text="\$" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="92.0" layoutY="81.0" prefHeight="30.0" prefWidth="84.0" style="-fx-background-color: #694106; -fx-background-radius: 20;">
+               <children>
+                  <Button layoutX="-1.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="32.0" style="-fx-background-color: #694106; -fx-background-radius: 20;" text="-" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="54.0" layoutY="1.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="32.0" style="-fx-background-color: #694106; -fx-background-radius: 20;" text="+" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Label alignment="CENTER" layoutX="23.0" layoutY="1.0" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: #694106;" text="0" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="18.0" layoutY="423.0" prefHeight="123.0" prefWidth="186.0" style="-fx-background-color: #a41e1e; -fx-background-radius: 20;">
+         <children>
+            <Label layoutX="11.0" layoutY="8.0" text="Hamburger" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="23.0" layoutY="54.0" text="LabelLabelLabelLabel" textFill="#e4e4e4" />
+            <Label layoutX="29.0" layoutY="79.0" text="12" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="17.0" layoutY="79.0" text="\$" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="92.0" layoutY="81.0" prefHeight="30.0" prefWidth="84.0" style="-fx-background-color: #694106; -fx-background-radius: 20;">
+               <children>
+                  <Button layoutX="-1.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="32.0" style="-fx-background-color: #694106; -fx-background-radius: 20;" text="-" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="54.0" layoutY="1.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="32.0" style="-fx-background-color: #694106; -fx-background-radius: 20;" text="+" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Label alignment="CENTER" layoutX="23.0" layoutY="1.0" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: #694106;" text="0" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="213.0" layoutY="423.0" prefHeight="123.0" prefWidth="186.0" style="-fx-background-color: #a41e1e; -fx-background-radius: 20;">
+         <children>
+            <Label layoutX="11.0" layoutY="8.0" text="Hamburger" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="23.0" layoutY="54.0" text="LabelLabelLabelLabel" textFill="#e4e4e4" />
+            <Label layoutX="29.0" layoutY="79.0" text="12" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="17.0" layoutY="79.0" text="\$" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="92.0" layoutY="81.0" prefHeight="30.0" prefWidth="84.0" style="-fx-background-color: #694106; -fx-background-radius: 20;">
+               <children>
+                  <Button layoutX="-1.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="32.0" style="-fx-background-color: #694106; -fx-background-radius: 20;" text="-" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="54.0" layoutY="1.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="32.0" style="-fx-background-color: #694106; -fx-background-radius: 20;" text="+" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Label alignment="CENTER" layoutX="23.0" layoutY="1.0" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: #694106;" text="0" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="411.0" layoutY="423.0" prefHeight="123.0" prefWidth="186.0" style="-fx-background-color: #a41e1e; -fx-background-radius: 20;" visible="false">
+         <children>
+            <Label layoutX="11.0" layoutY="8.0" text="Hamburger" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="23.0" layoutY="54.0" text="LabelLabelLabelLabel" textFill="#e4e4e4" />
+            <Label layoutX="29.0" layoutY="79.0" text="12" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="17.0" layoutY="79.0" text="\$" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="92.0" layoutY="81.0" prefHeight="30.0" prefWidth="84.0" style="-fx-background-color: #694106; -fx-background-radius: 20;">
+               <children>
+                  <Button layoutX="-1.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="32.0" style="-fx-background-color: #694106; -fx-background-radius: 20;" text="-" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="54.0" layoutY="1.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="32.0" style="-fx-background-color: #694106; -fx-background-radius: 20;" text="+" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Label alignment="CENTER" layoutX="23.0" layoutY="1.0" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: #694106;" text="0" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <Button fx:id="btnBack" layoutX="411.0" layoutY="492.0" mnemonicParsing="false" onAction="#BtnBack" prefHeight="31.0" prefWidth="186.0" style="-fx-background-color: #694106; -fx-background-radius: 20;" text="Back" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnOrder" disable="true" layoutX="411.0" layoutY="434.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="186.0" style="-fx-background-color: #a41e1e; -fx-background-radius: 20;" text="Order" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
